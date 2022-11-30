@@ -1,0 +1,49 @@
+@import "src/styles/colors"
+
+.drawer-container
+  background-color: $blue-ozone
+  padding: 29px 16px 16px
+  display: flex
+  flex-direction: column
+  .tittle
+    font-size: 16px
+    font-weight: 500
+  .description
+    font-size: 14px
+    padding-top: 16px
+    &.medium
+      font-size: 16px
+      padding-top: 56px
+  .stack
+    padding-top: 16px
+    .paper
+      display: flex
+      flex-direction: row
+      align-items: center
+      border-radius: 12px
+      padding: 12px
+      margin-top: 8px
+      cursor: pointer
+      width: 100%
+      .avatar
+        width: 44px
+        height: 44px
+        background-color: $grey-light
+      span
+        padding-left: 12px
+        font-size: 16px
+        font-weight: 500
+  .btn-container
+    padding-top: 29px
+    display: flex
+    flex: 1
+    justify-content: end
+    flex-direction: column
+    .btn
+      font-size: 16px
+      text-transform: none
+      font-style: normal
+      font-weight: 500
+      line-height: 22px
+    button:nth-child(2)
+      padding-top: 16px
